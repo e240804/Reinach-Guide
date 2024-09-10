@@ -3,10 +3,6 @@
     text-decoration: none;
 }
 
-.backlink:hover{
-    color: rgba(0, 0, 0, 0.5);
-}
-
 .logo{
     width: 20rem;
 }
@@ -24,4 +20,36 @@
     width: 20rem;
     height: 5rem;
     margin: 50px;
+}
+
+.menu{
+    border: 0px solid red;
+    display: flex;
+    width: 72rem;
+    height: 15rem;
+    margin: 0 auto;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item{
+    border: 0px solid blue;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.menu-item:hover{
+   transition: 0.5s ease;
+    background-color: rgba(128, 128, 128, 0.34);
+}
+
+.text{
+   padding-top: 7.5rem;
+}
+
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
 }
