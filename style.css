@@ -43,13 +43,3 @@
    transition: 0.5s ease;
     background-color: rgba(128, 128, 128, 0.34);
 }
-
-.text{
-   padding-top: 7.5rem;
-}
-
-.image{
-    display: block;
-    width: 100%;
-    height: auto;
-}
